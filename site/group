@@ -1,0 +1,50 @@
+<!-- group.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Группа — ПИЖ-б-о-26 </title>
+</head>
+<body>
+    <header>
+        <h1>Моя учебная группа</h1>
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li>Обо мне</li>
+                <li>Друзья</li>
+                <li>Увлечения</li>
+                <li>Группа</li>
+                <li>СПС (ЦОД)</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>О группе</h2>
+            <p>
+                Я учусь в группе <strong>ПИЖ-б-о-26</strong>. В нашей группе
+                много талантливых и целеустремлённых студентов. <br>
+                Мы вместе осваиваем программирование и стараемся помогать друг другу.
+            </p>
+            <h3>Список студентов</h3>
+            <ul>
+                <li>Пелагея</li>
+                <li>Стас</li>
+                <li>Артем</li>
+                <li>Анна</li>
+            </ul>
+        </section>
+
+        <hr>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026, группа ПИЖ-б-о-26. Все права защищены.</p>
+    </footer>
+</body>
+</html>
