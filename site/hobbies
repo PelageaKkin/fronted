@@ -1,0 +1,52 @@
+<!-- hobbies.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Увлечения — Пелагея</title>
+</head>
+<body>
+    <header>
+        <h1>Мои увлечения</h1>
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li>Обо мне</li>
+                <li>Друзья</li>
+                <li>Увлечения</li>
+                <li>Группа</li>
+                <li>СПС (ЦОД)</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Чем я занимаюсь в свободное время</h2>
+            <p>
+                Хобби помогают мне отдыхать и развиваться. Вот мои основные увлечения:
+            </p>
+            <ol>
+                <li>Скрапбукинг</li>
+                <li>Чтение книг (фантастика)</li>
+                <li>Просмотр сериалов и аниме</li>
+                <li>Общение с подругами онлайн</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h3>Мой девиз</h3>
+            <p><em>«Хочешь жить, умей вертеться».</em></p>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026, Пелагея. Все права защищены.</p>
+    </footer>
+</body>
+</html>
