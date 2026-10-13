@@ -1,0 +1,76 @@
+<!-- friends.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Друзья — Пелагея</title>
+</head>
+<body>
+    <header>
+        <h1>Мои друзья</h1>
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li>Обо мне</li>
+                <li>Друзья</li>
+                <li>Увлечения</li>
+                <li>Группа</li>
+                <li>СПС (ЦОД)</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>О друзьях</h2>
+            <p>
+                У меня есть три близкие подруги — <strong>Лиза</strong>,
+                <strong>Лера</strong> и <strong>Вика</strong>. <br>
+                Мы познакомились в интернете почти все и дружим онлайн: переписываемся,
+                созваниваемся и поддерживаем друг друга. Живём мы в разных
+                городах, поэтому видеться в реальности получается редко,
+                но это совсем не мешает нашей дружбе. С Викой были одноклассниками.
+            </p>
+            <ul>
+                <li>
+                    <strong>Лиза</strong>
+                    <ul>
+                        <li>Рисование</li>
+                        <li>Аниме</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Лера</strong>
+                    <ul>
+                        <li>Игры</li>
+                        <li>Рисование</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Вика</strong>
+                    <ul>
+                        <li>Чтение</li>
+                        <li>Игры</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h3>Интересный факт</h3>
+            <p>
+                С двумя из них я виделась в реальности.
+            </p>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026, Пелагея. Все права защищены.</p>
+    </footer>
+</body>
+</html>
