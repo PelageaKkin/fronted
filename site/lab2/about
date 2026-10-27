@@ -1,0 +1,99 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне — Пелагея</title>
+</head>
+<body>
+    <header>
+        <h1>Обо мне</h1>
+        <nav>
+            <ul>
+                <!-- ССЫЛКИ В МЕНЮ -->
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="friends.html">Друзья</a></li>
+                <li><a href="hobbies.html">Увлечения</a></li>
+                <li><a href="group.html">Группа</a></li>
+                <li><a href="sps.html">СПС (ЦОД)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Биография</h2>
+            
+            <!-- ДОБАВИЛА ФОТО -->
+            <figure>
+                <img src="images/photo.jpg" alt="Фотография Пелагеи" width="250">
+                <figcaption>Это я</figcaption>
+            </figure>
+
+            <p>
+                Меня зовут <strong>Пелагея</strong>. Я студентка СКФУ. <br>
+                Я только начинаю знакомиться с веб-разработкой и сейчас
+                изучаю основы HTML на занятиях по дисциплине
+                «Введение во frontend разработку».
+            </p>
+            <p>
+                Пока я знаю не так много, но мне интересно разбираться
+                в новых темах. <em>Мне нравится узнавать, как устроены
+                веб-страницы и из чего они состоят.</em>
+            </p>
+            
+            <!-- ЯКОРНАЯ ССЫЛКА И ССЫЛКА НА GITHUB -->
+            <p><a href="#skills">Перейти к навыкам</a></p>
+            <p>Мой профиль на GitHub: <a href="https://github.com/PelageaKkin/fronted" target="_blank">ссылка</a></p>
+        </article>
+
+        <hr>
+
+        <section id="skills">
+            <h2>Навыки</h2>
+            <p>
+                Пока мой список навыков небольшой, но я постепенно его расширяю:
+            </p>
+            <ol>
+                <li>
+                    <strong>HTML</strong>
+                    <ul>
+                        <li>Базовая структура документа</li>
+                        <li>Заголовки, абзацы, списки</li>
+                        <li>Семантические теги</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Учебные навыки</strong>
+                    <ul>
+                        <li>Умение искать информацию</li>
+                        <li>Разбор ошибок в коде</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h3>Дополнительно</h3>
+            <dl>
+                <dt>Изучаю сейчас</dt>
+                <dd>HTML, основы построения веб-страниц</dd>
+                <dt>Планирую изучить</dt>
+                <dd>JavaScript</dd>
+                <dt>Языки</dt>
+                <dd>Русский — родной, английский — базовый</dd>
+            </dl>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026, Пелагея. Все права защищены.</p>
+    </footer>
+</body>
+</html>
