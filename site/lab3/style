@@ -1,0 +1,173 @@
+/* style.css */
+
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/* CSS-переменные*/
+:root {
+    --main-pink: #f8bbd0; 
+    --dark-pink: #d81b60;
+    --text-color: #333333;
+    --bg-color: #fff5f7;
+}
+
+/* глобальные стили (шрифт Arial, 16px, темный текст, светлый фон) */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/*заголовки разного размера и цвета */
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    color: var(--dark-pink);
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--dark-pink);
+}
+
+h3 {
+    color: #880e4f;
+    font-size: 1.2rem;
+}
+
+/* разный шрифт для заголовков (требование) */
+h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* абзацы по ширине, интервал 1.5 */
+p {
+    text-align: justify;
+}
+
+/* квадратные маркеры списков */
+ul {
+    list-style-type: square;
+}
+
+/* ссылки меняются при наведении */
+a {
+    color: var(--dark-pink);
+    text-decoration: none;
+}
+
+/* псевдоклассы для ссылок */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color: orange;
+}
+a:visited {
+    color: purple;
+}
+
+/*стилизация всех семантических блоков */
+header {
+    background-color: var(--main-pink);
+    padding: 20px;
+    border-bottom: 2px solid var(--dark-pink);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--main-pink);
+    padding: 10px;
+    border-top: 2px solid var(--dark-pink);
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+section, article {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--main-pink);
+}
+
+aside {
+    background-color: #fce4ec;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--dark-pink);
+}
+
+/*горизонтальное меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block; /* Делаем пункты в линию */
+    margin: 0 10px;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+/* стилизация цитат (blockquote) */
+blockquote {
+    font-style: italic;
+    padding: 10px;
+    margin: 15px 0;
+    border-left: 5px solid var(--dark-pink);
+}
+
+/*  стилизация таблиц */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid var(--dark-pink);
+    padding: 8px;
+    text-align: left;
+}
+
+/* стилизация списков терминов (dl) */
+dt {
+    font-weight: bold;
+    color: var(--dark-pink);
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* ID для логотипа */
+#logo {
+    width: 150px;
+}
+
+/*  классы для текста */
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: yellow;
+}
