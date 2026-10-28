@@ -1,0 +1,66 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Учебный сайт Пелагеи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Учебный сайт Пелагеи</h1>
+        <nav>
+            <ul>
+                <!-- ДОБАВИЛИ ССЫЛКИ В МЕНЮ -->
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="friends.html">Друзья</a></li>
+                <li><a href="hobbies.html">Увлечения</a></li>
+                <li><a href="group.html">Группа</a></li>
+                <li><a href="sps.html">СПС (ЦОД)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Добро пожаловать!</h2>
+            <!-- ДОБАВИЛИ КАРТИНКУ -->
+            <img src="images/logo.jpg" alt="Логотип учебного сайта Пелагеи и просто милая картинка" width="200">
+            <p>
+                Привет! Меня зовут <strong>Пелагея</strong>. Это мой учебный сайт,
+                созданный в рамках лабораторных работ по дисциплине
+                «Введение во frontend разработку». <br>
+                Сайт посвящён мне, моим друзьям, увлечениям, учёбе и профильной
+                теме, связанной с технологиями РТК ИТ.
+            </p>
+            <p><strong>Номер текущей группы:</strong> ПИЖ-б-о-26-1</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Основные разделы сайта</h2>
+            <ul>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="friends.html">Друзья</a></li>
+                <li><a href="hobbies.html">Увлечения</a></li>
+                <li><a href="group.html">Группа</a></li>
+                <li><a href="sps.html">СПС — R&amp;D в области ЦОД</a></li>
+            </ul>
+        </section>
+
+        <aside>
+            <h3>О сайте</h3>
+            <p>Сайт создан в учебных целях.</p>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026, Пелагея. Все права защищены.</p>
+    </footer>
+</body>
+</html>
